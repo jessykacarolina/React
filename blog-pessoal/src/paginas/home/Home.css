@@ -1,25 +1,4 @@
 .fonte {
-    color: darkblue;
+    color: red;
     font-size: 50px;
 }
-
-.container{
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.center {
-    text-align: center;
-}
-
-.p-10{
-    padding: 10px;
-}
-
-.justify{
-    text-align: justify;
-}
-
-
