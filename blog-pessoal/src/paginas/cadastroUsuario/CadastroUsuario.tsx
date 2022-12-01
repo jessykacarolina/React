@@ -17,7 +17,7 @@ function CadastroUsuario(){
                     <TextField id='senha' label='senha' variant='outlined' name='senha' type='password' margin='normal' fullWidth/>
                     <TextField id='confirmarsenha' label='confirmar senha' variant='outlined' name='confirmarsenha' margin='normal' type='password' fullWidth/>
                     <Box  marginTop={2} textAlign='center'>
-                        <Link to='/login' className='text-decorator-none'>
+                        <Link to='/' className='text-decorator-none'>
                             <Button variant='contained' color='secondary' className='btnCancelar'>
                             Cancelar
                             </Button>
