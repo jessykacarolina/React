@@ -4,7 +4,7 @@ import React, { ChangeEvent, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom'
 import useLocalStorage from 'react-use-localstorage';
 import UserLogin from '../../models/UserLogin'
-import { api } from '../../services/Service';
+import { api, login } from '../../services/Service';
 import './Login.css'
 
 function Login() {
@@ -40,8 +40,10 @@ function Login() {
         e.preventDefault();
 
         try{
-            const resposta = await api.post(`/auth/logar`, userLogin)
-            setToken(resposta.data.token)
+            // const resposta = await api.post(`/auth/logar`, userLogin)
+            // setToken(resposta.data.token)
+
+            await login(`auth/logar`, userLogin, setToken)
 
             alert('Usuario logado com sucesso')
         }catch(error) {
