@@ -1,0 +1,16 @@
+.imagem2{
+    background-image: url(https://raw.githubusercontent.com/projetomentalize/midia/69ed2525f1ec2cea9ddd0b998929d3b1c4044f22/coverlogin.svg);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.textos2{
+    font-weight: bold !important;
+}
+
+.btnCancelar{
+    margin-right: 20px !important;
+}
